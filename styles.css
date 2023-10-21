@@ -1,0 +1,93 @@
+/* Body and Header Styles */
+body {
+    background-color: #08201A; /* Deep Green Background */
+    color: #FFF; /* White Text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #12554C; /* Slightly Lighter Green Header Background */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF; /* White Text */
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #12554C; /* Slightly Lighter Green Text */
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Form Styles */
+form {
+    background-color: #12554C; /* Slightly Lighter Green Form Background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    color: #FFF; /* White Text */
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #08201A; /* Deep Green Border */
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #08201A; /* Deep Green Submit Button Background */
+    color: #FFF; /* White Text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #08201A; /* Deep Green Footer Background */
+    color: #FFF; /* White Text */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
